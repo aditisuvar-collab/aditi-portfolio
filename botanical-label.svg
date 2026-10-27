@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">A little green, a lot of joy</title>
+  <desc id="desc">An original editorial illustration of a botanical gift label, an olive ribbon and a round paper seal on a pale sage surface.</desc>
+  <defs>
+    <filter id="shadow" x="-40%" y="-30%" width="190%" height="190%"><feGaussianBlur stdDeviation="15"/></filter>
+    <filter id="small-shadow" x="-40%" y="-40%" width="190%" height="190%"><feGaussianBlur stdDeviation="7"/></filter>
+    <linearGradient id="ground" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#d8ddc7"/><stop offset="1" stop-color="#c5ccb2"/></linearGradient>
+    <linearGradient id="ribbon" x1="0" x2="1"><stop stop-color="#9b9c6b"/><stop offset=".47" stop-color="#b2b380"/><stop offset="1" stop-color="#8b8e5e"/></linearGradient>
+    <pattern id="paper" width="7" height="7" patternUnits="userSpaceOnUse"><path d="M0 1h1M4 5h1" stroke="#52603b" stroke-opacity=".045" stroke-width=".6"/></pattern>
+  </defs>
+  <path fill="url(#ground)" d="M0 0h1200v900H0z"/>
+  <path d="M0 0h1200v900H0z" fill="url(#paper)"/>
+  <path d="M-100 747 226 578 486 1020" fill="#dce0ce" opacity=".55"/>
+  <path d="m947-70 185 80-269 632-181-77Z" fill="#6e784e" opacity=".13" filter="url(#shadow)"/>
+  <path d="m944-70 173 74-262 616-87-69-82-3Z" fill="url(#ribbon)"/>
+  <path d="m964-61 135 58-247 582" fill="none" stroke="#d2d1a3" stroke-opacity=".25" stroke-width="2"/>
+  <g transform="rotate(-8 573 461)">
+    <path d="M330 166h482v578H330z" fill="#586044" opacity=".23" filter="url(#shadow)" transform="translate(12 23)"/>
+    <path d="M330 153h482v578H330z" fill="#f8f4e9"/>
+    <path d="M330 153h482v578H330z" fill="url(#paper)"/>
+    <path d="M351 174h440v536H351z" fill="none" stroke="#919777" stroke-opacity=".45" stroke-width=".8"/>
+    <text x="571" y="220" text-anchor="middle" fill="#606b49" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="3.2">SMALL THINGS, THOUGHTFULLY MADE</text>
+    <g fill="#495b38" stroke="#495b38" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M556 466c-2-58 18-134 62-194" fill="none" stroke-width="2.3"/>
+      <path d="M568 408c-31-5-49-20-50-50 29 4 46 20 50 50Z" stroke-width=".5"/>
+      <path d="M578 369c-27-11-36-33-29-58 25 10 37 31 29 58Z" stroke-width=".5"/>
+      <path d="M597 329c-20-15-20-37-11-54 23 15 25 32 11 54Z" stroke-width=".5"/>
+      <path d="M606 310c1-25 17-43 41-44-2 25-15 40-41 44Z" stroke-width=".5"/>
+      <path d="M586 349c14-25 35-32 60-25-12 25-31 35-60 25Z" stroke-width=".5"/>
+      <path d="M573 391c20-22 45-25 68-12-18 23-40 28-68 12Z" stroke-width=".5"/>
+      <path d="M560 436c-28-3-50-16-58-43 30 1 50 14 58 43Z" stroke-width=".5"/>
+      <path d="M562 430c22-17 46-17 67 1-20 19-44 20-67-1Z" stroke-width=".5"/>
+    </g>
+    <text x="571" y="521" text-anchor="middle" fill="#465536" font-family="Georgia, 'Times New Roman', serif" font-size="47" letter-spacing="-1.4">a little green,</text>
+    <text x="571" y="576" text-anchor="middle" fill="#465536" font-family="Georgia, 'Times New Roman', serif" font-size="47" font-style="italic" letter-spacing="-1.4">a lot of joy.</text>
+    <path d="M482 613h178" stroke="#9ca086" stroke-width=".8"/>
+    <text x="571" y="646" text-anchor="middle" fill="#697154" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="2.8">A SMALL NOTE FROM NATURE</text>
+    <circle cx="571" cy="679" r="2" fill="#7c8564"/>
+  </g>
+  <g transform="rotate(11 842 646)">
+    <ellipse cx="849" cy="661" rx="105" ry="100" fill="#65704b" opacity=".19" filter="url(#small-shadow)"/>
+    <circle cx="842" cy="646" r="101" fill="#e9eddd"/>
+    <circle cx="842" cy="646" r="89" fill="none" stroke="#71805a" stroke-width=".8"/>
+    <circle cx="842" cy="646" r="83" fill="none" stroke="#71805a" stroke-opacity=".4" stroke-width=".6"/>
+    <path d="M841 666v-43m1 22c-17 0-26-11-26-23 16 0 26 9 26 23Zm0-12c0-17 10-27 23-27 0 17-9 27-23 27Z" fill="#6e7d55" stroke="#6e7d55" stroke-width="1.4"/>
+    <text x="842" y="598" text-anchor="middle" fill="#536341" font-family="Arial, Helvetica, sans-serif" font-size="9" letter-spacing="2.4">MADE WITH CARE</text>
+    <text x="842" y="695" text-anchor="middle" fill="#536341" font-family="Georgia, 'Times New Roman', serif" font-size="15" font-style="italic">for you, with love</text>
+  </g>
+</svg>

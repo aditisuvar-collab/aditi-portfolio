@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900" role="img" aria-labelledby="title desc">
+  <title id="title">Room for a little wonder</title>
+  <desc id="desc">An original stylized gallery scene with sculptural cream arches, burgundy display plinths and a suspended paper star on a dusty rose backdrop.</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#efd9d4"/><stop offset="1" stop-color="#e5c6c1"/></linearGradient>
+    <linearGradient id="floor" x1="0" x2=".8" y1="0" y2="1"><stop stop-color="#e3bfb9"/><stop offset="1" stop-color="#efd8cd"/></linearGradient>
+    <linearGradient id="pillar" x1="0" x2="1"><stop stop-color="#733d49"/><stop offset=".6" stop-color="#884b56"/><stop offset="1" stop-color="#713946"/></linearGradient>
+    <filter id="soft-shadow" x="-45%" y="-100%" width="220%" height="300%"><feGaussianBlur stdDeviation="15"/></filter>
+    <filter id="star-shadow" x="-50%" y="-40%" width="220%" height="220%"><feGaussianBlur stdDeviation="5"/></filter>
+    <pattern id="grain" width="8" height="8" patternUnits="userSpaceOnUse"><path d="M1 2h1m4 4h1" stroke="#8b565a" stroke-opacity=".045" stroke-width=".6"/></pattern>
+  </defs>
+  <path d="M0 0h1200v900H0z" fill="url(#wall)"/>
+  <path d="M0 485h1200v415H0z" fill="url(#floor)"/>
+  <path d="M0 485h1200" stroke="#ba8e8c" stroke-opacity=".22" stroke-width="1"/>
+  <path d="M0 0h1200v900H0z" fill="url(#grain)"/>
+  <ellipse cx="569" cy="721" rx="342" ry="49" fill="#9f6e70" opacity=".14" filter="url(#soft-shadow)"/>
+  <ellipse cx="807" cy="757" rx="182" ry="24" fill="#915e65" opacity=".18" filter="url(#soft-shadow)"/>
+  <path d="M288 660V346c0-100 70-166 162-166h21c91 0 149 67 149 166v314l-24 14-18-340c0-71-47-123-109-123h-21c-68 0-118 49-118 123v326Z" fill="#cbbfa9"/>
+  <path d="M265 674V342c0-100 69-166 161-166h21c91 0 149 67 149 166v332H485V342c0-34-19-57-49-57s-60 23-60 57v332Z" fill="#f6efdb" fill-rule="evenodd"/>
+  <path d="M376 674V342c0-34 30-57 60-57 17 0 30 7 38 20-32-8-74 15-74 57v298Z" fill="#d8ccb5"/>
+  <path d="M265 674h111l24-14H289Z" fill="#d4c5ad"/>
+  <path d="M485 674h111l24-14H509Z" fill="#d4c5ad"/>
+  <path d="M671 570 825 547l133 47-158 32Z" fill="#9e6972"/>
+  <path d="M671 570v159l129 54V626Z" fill="#834650"/>
+  <path d="M800 626v157l158-42V594Z" fill="#713b48"/>
+  <path d="m689 611 88 37v1l-88-36Zm0 11 58 24v1l-58-23Z" fill="#d1a3a6" opacity=".65"/>
+  <g transform="translate(0 -3)">
+    <path d="M715 561V445c0-62 42-107 100-107s100 45 100 107v116l-18 8-18-118c0-45-27-76-64-76s-65 31-65 76v110Z" fill="#c9bca6"/>
+    <path d="M697 569V445c0-62 42-107 100-107s100 45 100 107v124h-59V445c0-27-16-46-41-46s-41 19-41 46v124Z" fill="#faf2dd"/>
+    <path d="M756 569V445c0-27 16-46 41-46 12 0 21 4 28 12-27-9-51 12-51 42v108Z" fill="#d8cbb4"/>
+  </g>
+  <ellipse cx="369" cy="736" rx="122" ry="21" fill="#aa7779" opacity=".13" filter="url(#soft-shadow)"/>
+  <path d="M258 572h184v144c0 26-184 26-184 0Z" fill="url(#pillar)"/>
+  <ellipse cx="350" cy="572" rx="92" ry="24" fill="#a56972"/>
+  <path d="M258 716c0 28 184 28 184 0" fill="none" stroke="#79404c" stroke-width=".8"/>
+  <g transform="rotate(-14 347 514)">
+    <path d="M322 467h51v93h-51z" fill="#e1bd9b"/>
+    <path d="M322 467h51v11h-51z" fill="#f5d8b6"/>
+    <path d="M329 489h37v57h-37z" fill="none" stroke="#b89174" stroke-width=".7"/>
+    <path d="m341 527 5-14 8 14Z" fill="#8d545a"/>
+    <circle cx="348" cy="503" r="3" fill="#8d545a"/>
+  </g>
+  <path d="M841 0v141" stroke="#a68179" stroke-width="1"/>
+  <g transform="rotate(7 841 216)">
+    <path d="m848 149 24 44 52 8-38 36 8 52-46-25-47 25 9-52-38-36 52-8Z" fill="#a67874" opacity=".13" filter="url(#star-shadow)"/>
+    <path d="m841 141 25 46 51 8-38 36 9 52-47-25-47 25 9-52-38-36 52-8Z" fill="#fff3d8"/>
+    <path d="m841 141 1 83 37 7-38 27-47 25 48-59-25-37Z" fill="#ead9b9" opacity=".65"/>
+    <path d="m842 224 75-29-51-8Z" fill="#f6e6c9"/>
+  </g>
+  <text x="104" y="120" fill="#8a5360" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="3.5">A STUDY IN SPACE &amp; PLAY</text>
+  <text x="104" y="819" fill="#804b58" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-style="italic">room for a little wonder.</text>
+  <path d="M1071 757v60m-30-30h60" stroke="#b58c86" stroke-width=".8"/>
+  <circle cx="1071" cy="787" r="22" fill="none" stroke="#b58c86" stroke-width=".8"/>
+</svg>
